@@ -1,0 +1,356 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-image: url("../images/body-bg.png");
+  font-family: sans-serif;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* start nav */
+nav {
+  box-shadow: 0 4px 5px #ededed;
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 65%;
+}
+nav ul li {
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+nav li#focus {
+  color: #854fee;
+}
+/* header */
+header .main-container {
+  background-image: url("../images/home-banner.png");
+  background-size: cover;
+  background-position: center;
+  padding: 20px 0;
+}
+header .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+header .content article {
+  width: 40%;
+  padding: 40px 0;
+}
+header .content h3,
+header .content h1,
+header .content h5,
+header .content button {
+  text-transform: uppercase;
+}
+header .content h3 {
+  font-size: 30px;
+}
+header .content h1 {
+  font-size: 40px;
+}
+header .content h5 {
+  font-size: 18px;
+}
+header .content button {
+  padding: 8px 20px;
+  border-radius: 4px;
+}
+header .content .hire-me {
+  color: #fff;
+  background-color: #854fee;
+  border: 0;
+  box-shadow: 0 2px 12px 2px #e1daf9;
+  margin-right: 10px;
+}
+header .content .get-cv {
+  background-color: #fff;
+  border: 2px solid #854fee;
+}
+header .content .image img {
+  width: 280px;
+}
+
+/* myself section */
+.myself {
+  padding: 40px 0;
+}
+.myself .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.myself .image img {
+  width: 320px;
+}
+.myself article {
+  width: 50%;
+}
+.myself article h2 {
+  text-transform: uppercase;
+  line-height: 1.5;
+  font-size: 25px;
+}
+.myself article p {
+  color: #989898;
+  line-height: 1.5;
+}
+.myself article .download-cv {
+  background-color: #854fee;
+  padding: 10px 15px;
+  border: 0;
+  color: #fff;
+  text-transform: uppercase;
+  box-shadow: 0 2px 12px 2px #e1daf9;
+  margin-top: 30px;
+  border-radius: 3px;
+}
+/* contact section */
+.contact {
+  padding: 40px 0;
+}
+.contact .content {
+  display: flex;
+  justify-content: space-between;
+}
+.contact .images {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contact .images .img {
+  width: 28%;
+  padding: 10px 20px;
+  border: 1px solid #e9e9e9;
+  margin-bottom: 20px;
+}
+.contact .images .img img {
+  display: block;
+  width: 90%;
+  height: 100%;
+}
+.contact .images .no-margin {
+  margin-bottom: 0;
+}
+.contact article {
+  background-color: #faf8ff;
+  padding: 20px;
+}
+.contact .experince {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+.contact .experince span {
+  margin-right: 20px;
+  color: #854fee;
+  font-size: 50px;
+  font-weight: bold;
+}
+.contact .experince p {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.contact .call {
+  display: flex;
+  flex-direction: column;
+}
+.contact .call-us {
+  color: #854fee;
+  text-transform: uppercase;
+}
+.contact .phone-number {
+  font-weight: bold;
+  font-size: 20px;
+}
+/* service section */
+.service-section {
+  padding: 40px 0;
+}
+.service-section h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.service-section p {
+  text-align: center;
+  line-height: 1.5;
+  color: #989898;
+}
+.service-section .content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.service-section .service {
+  padding: 10px;
+  background-color: #faf8ff;
+  width: 20%;
+}
+.service-section .service img,
+.service-section .service h4,
+.service-section .service p {
+  text-align: center;
+}
+.service-section .service img {
+  display: block;
+  margin: 0 auto;
+}
+.service-section .service h4 {
+  text-transform: uppercase;
+}
+/* projects section */
+.projects {
+  padding: 40px 0;
+}
+.projects h2 {
+  text-transform: uppercase;
+}
+.projects .list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.projects .list li {
+  list-style: none;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+.projects .list .focus {
+  color: #854fee;
+}
+.projects .content {
+  display: flex;
+  justify-content: space-between;
+}
+.projects .content .project {
+  width: 28%;
+}
+.projects .content .project img {
+  width: 100%;
+}
+.projects .content .project h4 {
+  text-transform: uppercase;
+}
+.projects .content .project span {
+  color: #989898;
+}
+/* client section */
+.client {
+  padding: 40px 0;
+}
+.client h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+.client #text {
+  color: #989898;
+  text-align: center;
+}
+.client .content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.client .content .person {
+  width: 47%;
+  display: flex;
+  padding: 30px;
+  box-shadow: 0 3px 7px #eee;
+}
+.client .content .person img {
+  margin-right: 20px;
+}
+.client .content .person h4 {
+  text-transform: uppercase;
+}
+.client .content .person p {
+  color: #989898;
+  line-height: 1.5;
+}
+.client .dots {
+  margin-top: 70px;
+  text-align: center;
+}
+.client .dots span {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #c0c0c0;
+  margin-right: 10px;
+  display: inline-block;
+}
+.client .dots .dot-purple {
+  background-color: #854fee;
+}
+
+/* update section */
+.update {
+  margin-top: 160px;
+}
+.update .container {
+  background-color: #854fee;
+  padding: 50px 0 120px;
+}
+.update .content {
+  background-image: url("../images/home-banner.png");
+  background-position-x: 70%;
+  background-position-y: 14%;
+  padding: 64px 0 0px;
+  /* margin: 0px auto; */
+}
+.update .content h3,
+.update .content p {
+  text-align: center;
+  color: #fff;
+}
+.update .content h3 {
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-bottom: 0;
+}
+.update form {
+  width: 50%;
+  margin: 40px auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+.update form input[type="email"] {
+  width: 65%;
+  padding: 10px;
+  color: #fff;
+  background: transparent;
+  border-color: #fff;
+}
+.update form input[type="email"]::placeholder {
+  color: #fff;
+}
+.update form input[type="submit"] {
+  width: 30%;
+  text-transform: uppercase;
+}
+/* footer section */
+footer {
+  text-align: center;
+  padding: 60px 0;
+}
+footer h2 {
+  text-transform: uppercase;
+}
